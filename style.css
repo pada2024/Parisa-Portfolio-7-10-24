@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D9DCD6;
+}
+
+.header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #D9DCD6;
+}
+
+.header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 45px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+/* Hero image Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: -102px;
+    right: 16px;
+    background-color: red;
+    font-size: 25px;
+    padding: 5px;
+}
