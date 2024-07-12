@@ -1,4 +1,6 @@
-* {
+* 
+/* Main container CSS*/
+{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -18,6 +20,8 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    background-color: red;
+    padding: 5px;
 }
 
 .header h1 .seo {
@@ -73,3 +77,50 @@ p {
     font-size: 25px;
     padding: 5px;
 }
+
+/*About Me Section */
+.aboutsection {
+    color: #000;
+    text-align: justify;
+    
+}
+
+/*About me Header*/
+.aboutheader {
+    font-size:24px;
+    color: red;
+    border-right: thick solid #000;
+    float:left;
+    padding: 5px;
+    
+    
+}
+/*Links*/
+a:link {color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact .aboutheader2 {
+    column-count: 2;
+    column-gap: 40px;
+    
+}
+
+.aboutheader2 {
+    align-items: stretch;
+    padding-left: 600px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
